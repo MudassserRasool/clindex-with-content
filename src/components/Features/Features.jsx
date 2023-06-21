@@ -29,7 +29,7 @@ const Features = () => {
               </div>
               <div className="d-grid">
                 <div className="d-flex align-items-center gap-2 ">
-                  <p className="pt-3 orderSimilarText">Order similar</p>
+                  <p className="pt-3 orderSimilarText">Contact Us</p>
                   <img
                     src={FeaturesOrderTextArrowIcon}
                     alt="arrow not load"
@@ -83,7 +83,7 @@ const Features = () => {
               </div>
               <div className="d-grid">
                 <div className="d-flex align-items-center gap-2 ">
-                  <p className="pt-3 orderSimilarText">Order similar</p>
+                  <p className="pt-3 orderSimilarText">Contact Us</p>
                   <img
                     src={FeaturesOrderTextArrowIcon}
                     alt="arrow not load"
