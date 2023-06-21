@@ -3,12 +3,13 @@ import "./Features.css";
 import {
   CalendexWorkingImage,
   FeaturesOrderTextArrowIcon,
+  MannagementGroupWorkingImgae
 } from "..//../assets/index";
 
 const Features = () => {
   return (
-    <div>
-      <div className="container-fluid container-md mt-4">
+    <div className="featuresMargin">
+      <div className="container-fluid container-md ">
         {/* start upper row------------------------- */}
         <div className="d-flex align-items-center justify-content-between">
           <div className="col-7">
@@ -45,7 +46,7 @@ const Features = () => {
         {/* start Lower row------------------------- */}
         <div className="d-flex flex-row-reverse align-items-center justify-content-between mt-4">
           <div className="col-7">
-            <img src={CalendexWorkingImage} alt="" className="" />
+            <img src={MannagementGroupWorkingImgae} alt="" className="" />
           </div>
           <div className="col-4">
             <div>
@@ -60,21 +61,19 @@ const Features = () => {
 
             <div>
               <h1 className="groupWorkingHeading">
-                Smart Workforce Management
+              Business Insights Hub
               </h1>
               <p className="groupWorkingPara">
-                Dexterously manage your online store, track data, streamline
-                staff operations, & optimize HR processes.
+              Gain a competitive edge with marketing, accounting, analytics, reports, and loyalty gift card features.
               </p>
             </div>
             
             <div>
               <h1 className="groupWorkingHeading">
-                Smart Workforce Management
+              Inventory & Booking Widgets
               </h1>
               <p className="groupWorkingPara">
-                Dexterously manage your online store, track data, streamline
-                staff operations, & optimize HR processes.
+              Improve processes with digital forms, manage stock & inventory, & enhance bookings with a convenient widget.
               </p>
             </div>
 
@@ -89,7 +88,7 @@ const Features = () => {
                     src={FeaturesOrderTextArrowIcon}
                     alt="arrow not load"
                     width={18}
-                    height={20}
+                    height={12}
                   />
                 </div>
               </div>

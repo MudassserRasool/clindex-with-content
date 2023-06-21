@@ -1,13 +1,12 @@
+.featuresMargin{
+    margin-top: 62px;
+}
 .footerSection {
   margin-top: 82px;
   height: 458px;
   background: #5b7cfd;
 }
 
-.footerBox {
-  /* height: 458px;
-    background: #5B7CFD; */
-}
 
 .footerContentSetting {
   padding-top: 120px;
@@ -69,4 +68,23 @@ line-height: 19px;
 color: #EEEEEE;
 text-decoration: none;
     padding-top: 30px;
+}
+
+.groupWorkingPara{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #716C80;
+}
+
+
+
+.coustomHrTagStyle{
+    width: 1128px;
+    height: 0px;
+   
+    color: white;
+    border: 1px solid #DEDEDE;
 }

@@ -70,6 +70,8 @@ const Footer = () => {
           </div>
           {/* end third Links item------------------- */}
         </div>
+
+        <hr className=" coustomHrTagStyle" />
       </div>
     </div>
   );

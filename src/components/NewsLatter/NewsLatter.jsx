@@ -5,7 +5,7 @@ import { NewslatterSendButtonIcon } from "../../assets";
 const NewsLatter = () => {
   return (
     <div className="testimonialContainer">
-      <h1 className="growBusinessHeading">
+      <h1 className="growBusinessHeading  w-50 text-center">
         Ditch Long Process & Grow your Business to the Next Level
       </h1>
       <p className="growBusinessPara">

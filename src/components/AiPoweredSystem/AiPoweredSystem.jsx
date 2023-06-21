@@ -4,7 +4,7 @@ import { AiBookingIcon, AiPowerAutomationIcon, AiScheduler, AnimatedStatisticsMo
 
 const AiPoweredSystem = () => {
   return (
-    <div className=" mt-4">
+    <div className="aiPoweredSectionMarginTop">
       <div className="aiPoweredSystemContainer container">
         <div className="d-flex justify-content-between align-items-center">
           {/* start left text section---------------------------- */}
@@ -34,10 +34,9 @@ const AiPoweredSystem = () => {
               <div className="d-flex gap-4 ">
                 <img src={AiPowerAutomationIcon} alt="" className="AiItemIcon" />
                 <div className="aiItemNameAndPara">
-                  <h1 className="aiItemNameText">AI Scheduler</h1>
+                  <h1 className="aiItemNameText">Power Automation</h1>
                   <p className="aiParaText">
-                    AI bot scans your calendar, offers notifications, & books
-                    discounted appointments to fill empty slots.
+                  Maximize booking efficiency, improve customer engagement, & optimize revenue generation smoothly.
                   </p>
                 </div>
               </div>
@@ -46,10 +45,9 @@ const AiPoweredSystem = () => {
               <div className="d-flex gap-4 ">
                 <img src={AiBookingIcon} alt="" className="AiItemIcon" />
                 <div className="aiItemNameAndPara">
-                  <h1 className="aiItemNameText">AI Scheduler</h1>
+                  <h1 className="aiItemNameText">AI-Driven Bookings</h1>
                   <p className="aiParaText">
-                    AI bot scans your calendar, offers notifications, & books
-                    discounted appointments to fill empty slots.
+                  Improve scheduling process, increase bookings & minimize revenue loss due to empty slots.
                   </p>
                 </div>
               </div>

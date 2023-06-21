@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="coustomBg">
       <div className="container p-4">
-        <div className="d-flex">
+        <div className="d-flex justify-content-between">
           {/* start hero left text--------------------- */}
           <div className="my-auto col-md-6">
             <p className="bg-light bookinBackgroundCoustom">
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
           {/* end hero left text--------------------- */}
           {/* start hero right image--------------------- */}
-          <div className="col-md-6">
+          <div className="col-md-5">
             <img src={WomanImageForHeroSection} alt="hero image not loaded" className="heroWomanImage img-fluid"/>
           </div>
           {/* end hero right image--------------------- */}
