@@ -1,5 +1,7 @@
 import React from "react";
-import Style from "./Navbar.module.css";
+// import Style from "./Navbar.module.css";
+// import './Navbar.module.css'
+import "./Navbar.css";
 import { PlexarLogo, UserAccountIcon } from "../../assets";
 
 const Navbar = () => {
@@ -19,36 +21,51 @@ const Navbar = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="">
-            <img src={PlexarLogo} alt="Plexar Logo" className={Style.plexarLogo}/>
+            <img src={PlexarLogo} alt="Plexar Logo" className="plexarLogo" />
           </div>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul className={`${Style.navItem}, navbar-nav ms-auto mb-2 mb-lg-0 gap-5`}>
+            <ul className="navLinksArea navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/home">
+                <a
+                  className="navItemTextCoustom nav-link active"
+                  aria-current="page"
+                  href="/home"
+                >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="navItemTextCoustom nav-link active"
+                  aria-current="page"
+                  href="/home"
+                >
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                Portfolio
+                <a
+                  className="navItemTextCoustom nav-link active"
+                  aria-current="page"
+                  href="/home"
+                >
+                  Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="navItemTextCoustom nav-link active"
+                  aria-current="page"
+                  href="/home"
+                >
                   Contact Us
                 </a>
               </li>
-              
             </ul>
-         <div className="d-flex gap-2">
-            <p className={Style.SignUpText}>Sign Up</p>
-            <img src={UserAccountIcon} alt="" className={`${Style.userAccountIcon}, `}/>
-         </div>
+            <div className="d-flex align-items-center gap-2">
+              <p className="SignUpText my-auto">Sign Up</p>
+              <img src={UserAccountIcon} alt="" className="userAccountIcon" />
+            </div>
           </div>
         </div>
       </nav>

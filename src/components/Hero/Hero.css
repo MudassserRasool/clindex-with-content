@@ -1,0 +1,17 @@
+.bookinBackgroundCoustom{
+    Width:222px;
+    Height:31px;
+    padding: 5px;
+    text-align: center;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+/* line-height: 60px; */
+/* or 429% */
+
+
+color: #5B7CFD;
+
+}

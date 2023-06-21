@@ -1,0 +1,70 @@
+.aiPoweredStystemHeading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height, or 125% */
+    
+    
+    color: #333333;
+    
+}
+.aiPoweredHeadingLatter{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height, or 125% */
+    
+    
+    color: #548DFF;
+    
+}
+
+.aiItemsGrid{
+    margin-top: 22px;
+}
+.AiItemIcon{
+    width: 64px;
+    height: 64px;
+}
+.aiPoweredPara{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    
+    
+    color: #333330;
+    
+}
+
+.aiItemNameText{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #333333;
+    
+}
+
+.aiParaText{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 21px;
+    /* or 156% */
+    
+    
+    color: #666666;
+}

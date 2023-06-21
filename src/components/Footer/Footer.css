@@ -1,0 +1,72 @@
+.footerSection {
+  margin-top: 82px;
+  height: 458px;
+  background: #5b7cfd;
+}
+
+.footerBox {
+  /* height: 458px;
+    background: #5B7CFD; */
+}
+
+.footerContentSetting {
+  padding-top: 120px;
+}
+
+.footerLogoDownText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-top: 13px;
+}
+.linksSectionOne{
+    margin-left: 113px;
+}
+
+.linksSectionTwo{
+margin-left: 10px;
+}
+
+.linksSectionThree{
+    margin-left: 10px;  
+}
+.footerLinkHeading{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.footerLinkItem{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #EEEEEE;
+text-decoration: none;
+}
+
+.footerLinkHeadingAdress{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+margin-top: 20px;
+}
+.footerLinkItemAdress{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #EEEEEE;
+text-decoration: none;
+    padding-top: 30px;
+}

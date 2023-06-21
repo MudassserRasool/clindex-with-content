@@ -1,0 +1,49 @@
+.coustomContactUsBg{
+    background-color: #5B7CFD;
+margin-top: 30px;
+}
+.markitingImageAligenment{
+    margin-top: -17px;
+}
+.contactUsHeading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 125% */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.contactUsPara{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.contactUsButtonBox{
+    width: 177px;
+    height: 56px;
+    background-color: white;
+}
+
+.contactUsButtonText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #5B7CFD;
+    padding-top: 20px;
+}
