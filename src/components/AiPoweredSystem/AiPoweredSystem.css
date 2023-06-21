@@ -71,3 +71,26 @@
     
     color: #666666;
 }
+
+
+.learnButtonButtonBoxForAiPoweredItemsSection {
+    width: 177px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #4D30FF;
+    border: 1px solid white;
+  }
+  
+  .learnButtonCoustomText {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: white;
+  }
+  

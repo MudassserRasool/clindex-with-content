@@ -1,21 +1,94 @@
-.bookinBackgroundCoustom{
-    Width:222px;
-    Height:31px;
-    padding: 5px;
-    text-align: center;
+.coustomBg {
+  background-color: #84abb7;
+}
+.bookinBackgroundCoustom {
+  width: 222px;
+  height: 31px;
+  padding: 5px;
+  text-align: center;
 
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-/* line-height: 60px; */
-/* or 429% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  /* line-height: 60px; */
+  /* or 429% */
 
-
-color: #5B7CFD;
-
+  color: #5b7cfd;
 }
 
+.clindexHeroHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+}
 
-.heroWomanImage{
+.clindexHeroTitel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.heroParagraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.learnButtonButtonBox {
+  width: 177px;
+  height: 56px;
+  border-radius: 4px;
+  border: 1px solid white;
+}
+
+.learnButtonCoustomText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: white;
+}
+
+.heroWomanImage {
+  width: 886px;
+  height: 591px;
+}
+
+.buttonsRow {
+  margin-top: 30px;
+}
+.letsTalkButtonBox {
+  width: 177px;
+  height: 56px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.letsTalkCoustomText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #5b7cfd;
 }

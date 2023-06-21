@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Features from './components/Features/Features'
@@ -9,7 +10,7 @@ import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
-    <div>
+    <div className='remveScroller'>
       <Navbar/>
       <Hero/>
       <Features/>

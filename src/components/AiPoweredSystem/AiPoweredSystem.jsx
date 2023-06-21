@@ -1,6 +1,11 @@
 import React from "react";
 import "./AiPoweredSystem.css";
-import { AiBookingIcon, AiPowerAutomationIcon, AiScheduler, AnimatedStatisticsMobileImage } from "../../assets";
+import {
+  AiBookingIcon,
+  AiPowerAutomationIcon,
+  AiScheduler,
+  AnimatedStatisticsMobileImage,
+} from "../../assets";
 
 const AiPoweredSystem = () => {
   return (
@@ -32,11 +37,16 @@ const AiPoweredSystem = () => {
               {/* start ai powered item-------------------- */}
               {/* start ai powered item-------------------- */}
               <div className="d-flex gap-4 ">
-                <img src={AiPowerAutomationIcon} alt="" className="AiItemIcon" />
+                <img
+                  src={AiPowerAutomationIcon}
+                  alt=""
+                  className="AiItemIcon"
+                />
                 <div className="aiItemNameAndPara">
                   <h1 className="aiItemNameText">Power Automation</h1>
                   <p className="aiParaText">
-                  Maximize booking efficiency, improve customer engagement, & optimize revenue generation smoothly.
+                    Maximize booking efficiency, improve customer engagement, &
+                    optimize revenue generation smoothly.
                   </p>
                 </div>
               </div>
@@ -47,19 +57,30 @@ const AiPoweredSystem = () => {
                 <div className="aiItemNameAndPara">
                   <h1 className="aiItemNameText">AI-Driven Bookings</h1>
                   <p className="aiParaText">
-                  Improve scheduling process, increase bookings & minimize revenue loss due to empty slots.
+                    Improve scheduling process, increase bookings & minimize
+                    revenue loss due to empty slots.
                   </p>
                 </div>
               </div>
-              {/* start ai powered item-------------------- */}
+              {/* end ai powered item-------------------- */}
+              <div className="learnButtonButtonBoxForAiPoweredItemsSection ">
+                <p className="text-center pt-3 learnButtonCoustomText">
+                  Learn More
+                </p>
+              </div>
             </div>
-            {/* start ai powered items-------------------- */}
+            {/* end ai powered items-------------------- */}
           </div>
           {/* end left text section---------------------------- */}
 
           {/* start right text section---------------------------- */}
           <div className="col-5">
-            <img src={AnimatedStatisticsMobileImage} alt="" width={531} height={480}/>
+            <img
+              src={AnimatedStatisticsMobileImage}
+              alt=""
+              width={531}
+              height={480}
+            />
           </div>
           {/* end right text section---------------------------- */}
         </div>
