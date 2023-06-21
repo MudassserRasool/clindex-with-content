@@ -34,7 +34,7 @@ const Features = () => {
                     src={FeaturesOrderTextArrowIcon}
                     alt="arrow not load"
                     width={18}
-                    height={20}
+                    height={12}
                   />
                 </div>
               </div>
