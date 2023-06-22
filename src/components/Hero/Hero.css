@@ -75,10 +75,24 @@
   /* For screens smaller than medium (up to 767.98px) */
   .heroWomanImage {
     /* Add your desired margin for smaller screens here */
-    margin-top: -432px;
+    margin-top: -295px;
+    margin-left: 50px;
+    width: 400px;
+    height: 450px;
+    transform: scaleX(-1);
+    
   }
+  .heroParagraph{
+  z-index: 2;
+  position: relative;
+  
+  margin-right: 60px;
+  }
+  .buttonsRow{
+    position: absolute;
+    z-index: 2;
 }
-
+}
 
 .buttonsRow {
   margin-top: 30px;
