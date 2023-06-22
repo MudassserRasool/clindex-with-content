@@ -11,9 +11,9 @@ const AiPoweredSystem = () => {
   return (
     <div className="aiPoweredSectionMarginTop">
       <div className="aiPoweredSystemContainer container">
-        <div className="d-flex justify-content-between align-items-center">
+        <div className="d-md-flex justify-content-between align-items-center">
           {/* start left text section---------------------------- */}
-          <div className="col-5">
+          <div className="col-md-5">
             <h1 className="aiPoweredStystemHeading">
               <span className="aiPoweredHeadingLatter">AI Powered</span> System
             </h1>
@@ -63,23 +63,27 @@ const AiPoweredSystem = () => {
                 </div>
               </div>
               {/* end ai powered item-------------------- */}
-              <div className="learnButtonButtonBoxForAiPoweredItemsSection ">
+              <div className="d-flex justify-content-center  justify-content-md-start">
+                <div className="learnButtonButtonBoxForAiPoweredItemsSection ">
                 <p className="text-center pt-3 learnButtonCoustomText">
                   Learn More
                 </p>
               </div>
+              </div>
+              
             </div>
             {/* end ai powered items-------------------- */}
           </div>
           {/* end left text section---------------------------- */}
 
           {/* start right text section---------------------------- */}
-          <div className="col-5">
+          <div className="col-md-5 mt-4 mt-md-0">
             <img
               src={AnimatedStatisticsMobileImage}
               alt=""
               width={531}
               height={480}
+              className="img-fluid"
             />
           </div>
           {/* end right text section---------------------------- */}

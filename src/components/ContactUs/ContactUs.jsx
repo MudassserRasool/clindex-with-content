@@ -7,18 +7,18 @@ const ContactUs = () => {
     <div>
       <div className="coustomContactUsBg">
         <div className="container">
-          <div className="d-flex align-items-center">
+          <div className="d-md-flex align-items-center">
             {/* start left side-------------------------------- */}
-            <div className="col-5">
+            <div className="col-md-5">
               <img
                 src={MarkitingAnimatedPcImage}
                 alt="file not loaded"
-                className="markitingImageAligenment"
+                className="markitingImageAligenment img-fluid"
               />
             </div>
             {/* end left side-------------------------------- */}
             {/* start right side-------------------------------- */}
-            <div className="col-5 ms-auto">
+            <div className="col-md-5 ms-auto">
               <h1 className="contactUsHeading">
                 Get Seen on Expert with Free Advertising
               </h1>
@@ -29,7 +29,7 @@ const ContactUs = () => {
                 customers, and boost your bookings.
               </p>
 
-              <div className="d-flex buttonsRowContactUs">
+              <div className="d-flex justify-content-md-start justify-content-around buttonsRowContactUs">
                 <div className="contactUsButtonBox">
                   <p className="contactUsButtonText">Contact Us</p>
                 </div>

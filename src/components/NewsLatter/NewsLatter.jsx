@@ -5,7 +5,8 @@ import { NewslatterSendButtonIcon } from "../../assets";
 const NewsLatter = () => {
   return (
     <div className="testimonialContainer">
-      <h1 className="growBusinessHeading  w-50 text-center">
+      <div className="containe">
+           <h1 className="growBusinessHeading   text-center">
         Ditch Long Process & Grow your Business to the Next Level
       </h1>
       <p className="growBusinessPara">
@@ -15,10 +16,10 @@ const NewsLatter = () => {
 
       {/* start newslatter box-------------------------------------- d-flex align-items-center */}
       <div className="d-grid align-items-center newsLatterBox container ">
-        <div className="d-flex align-items-center justify-content-center pt-4">
-            <h1 className="col-6 getInTouchText">Get in Touch to Ignite <br />Your Business Success!</h1>
+        <div className="d-md-flex align-items-center justify-content-center pt-4">
+            <h1 className="col-md-6 getInTouchText">Get in Touch to Ignite <br />Your Business Success!</h1>
             <input type="text" placeholder="Drop your email here…" className="col-5 newsLatterCoustomInput" />
-            <div className="sendNewsLatterButtonBox d-grid">
+            <div className="sendNewsLatterButtonBox ">
                 <div className="d-flex align-items-center gap-3">
                 <img src={NewslatterSendButtonIcon} alt="icon not loading" width={11.76} height={11.72} className="sendButtonIcon"/>
                     <p className="sendNewsLatterButtonText">Send</p>
@@ -27,6 +28,8 @@ const NewsLatter = () => {
         </div>
       </div>
       {/* end newslatter box-------------------------------------- */}
+      </div>
+   
     </div>
   );
 };

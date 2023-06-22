@@ -8,8 +8,22 @@
 .plexarLogo {
   width: 121px;
   height: 46px;
-  margin-left: 120px;
 }
+
+@media only screen and (min-width: 768px) {
+  /* For medium and bigger screens */
+  .plexarLogo {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 10px) {
+  /* For screens below 10 pixels */
+  .plexarLogo {
+    margin-left: 0;
+  }
+}
+
 
 .navItemTextCoustom {
   font-family: "Roboto";
@@ -42,4 +56,19 @@
 
 .coustomNavbaSize{
   height: 73px;
+}
+
+.colepessedContainer{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.accountMobileStyle{
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
 }

@@ -71,6 +71,15 @@
   height: 620px;
 }
 
+@media only screen and (max-width: 767.98px) {
+  /* For screens smaller than medium (up to 767.98px) */
+  .heroWomanImage {
+    /* Add your desired margin for smaller screens here */
+    margin-top: -432px;
+  }
+}
+
+
 .buttonsRow {
   margin-top: 30px;
 }
@@ -87,9 +96,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   text-align: center;
-
   color: #5b7cfd;
 }

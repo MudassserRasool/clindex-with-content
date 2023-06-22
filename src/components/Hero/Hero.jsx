@@ -6,9 +6,9 @@ const Hero = () => {
   return (
     <div className="coustomBg">
       <div className="container p-4">
-        <div className="d-flex justify-content-between">
+        <div className=" d-md-flex  justify-content-between">
           {/* start hero left text--------------------- */}
-          <div className="my-auto pb-4 col-md-6">
+          <div className="my-auto pb-4 col-md-6 z-index-2">
             <p className="bg-light bookingBackgroundCoustom">
               Booking Management System
             </p>
@@ -24,7 +24,7 @@ const Hero = () => {
               tracks clients, handles staff management & enables effective
               marketing strategies.
             </p>
-            <div className="d-flex buttonsRow">
+            <div className="d-flex justify-content-center justify-content-sm-start buttonsRow">
               <div className="letsTalkButtonBox ">
                 <p className="text-center pt-3 letsTalkCoustomText">
                   Let's Talk
@@ -40,8 +40,13 @@ const Hero = () => {
           {/* end hero left text--------------------- */}
           {/* start hero right image--------------------- */}
           <div className="col-md-5">
-            <img src={WomanImageForHeroSection} alt="hero image not loaded" className="heroWomanImage "/>
+            <img
+              src={WomanImageForHeroSection}
+              alt="hero image not loaded"
+              className="heroWomanImage "
+            />
           </div>
+
           {/* end hero right image--------------------- */}
         </div>
       </div>

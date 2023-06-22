@@ -1,6 +1,7 @@
 .coustomContactUsBg{
     background-color: #5B7CFD;
 margin-top: 109px;
+/* height: 220%; */
 }
 .markitingImageAligenment{
     margin-top: -17px;
@@ -50,6 +51,7 @@ margin-top: 109px;
 
 .buttonsRowContactUs {
     margin-top: 30px;
+    padding-bottom: 20px;
   }
   .learnButtonButtonBox {
     width: 177px;
