@@ -1,7 +1,8 @@
 .coustomBg {
-  background-color: #84abb7;
+  background: linear-gradient(90deg, #94B6C3 9.22%, #B5CDD7 77.93%, rgba(110, 114, 116, 0) 100%);
+  height: 610px;
 }
-.bookinBackgroundCoustom {
+.bookingBackgroundCoustom {
   width: 222px;
   height: 31px;
   padding: 5px;
@@ -66,8 +67,8 @@
 }
 
 .heroWomanImage {
-  width: 886px;
-  height: 591px;
+  width: auto;
+  height: 620px;
 }
 
 .buttonsRow {

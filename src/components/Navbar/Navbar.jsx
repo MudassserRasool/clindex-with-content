@@ -7,7 +7,7 @@ import { PlexarLogo, UserAccountIcon } from "../../assets";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light coustomNavbaSize">
         <div className="container-fluid py-1">
           <button
             className="navbar-toggler"
@@ -62,7 +62,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <div className="d-flex align-items-center gap-2">
+            <div className="d-flex align-items-center gap-2 me-4">
               <p className="SignUpText my-auto">Sign Up</p>
               <img src={UserAccountIcon} alt="" className="userAccountIcon" />
             </div>

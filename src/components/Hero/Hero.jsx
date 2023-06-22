@@ -8,8 +8,8 @@ const Hero = () => {
       <div className="container p-4">
         <div className="d-flex justify-content-between">
           {/* start hero left text--------------------- */}
-          <div className="my-auto col-md-6">
-            <p className="bg-light bookinBackgroundCoustom">
+          <div className="my-auto pb-4 col-md-6">
+            <p className="bg-light bookingBackgroundCoustom">
               Booking Management System
             </p>
             <div className="mt-2">
@@ -30,7 +30,7 @@ const Hero = () => {
                   Let's Talk
                 </p>
               </div>
-              <div className="learnButtonButtonBox ms-2">
+              <div className="learnButtonButtonBox ms-3">
                 <p className="text-center pt-3 learnButtonCoustomText">
                   Learn More
                 </p>
@@ -40,7 +40,7 @@ const Hero = () => {
           {/* end hero left text--------------------- */}
           {/* start hero right image--------------------- */}
           <div className="col-md-5">
-            <img src={WomanImageForHeroSection} alt="hero image not loaded" className="heroWomanImage img-fluid"/>
+            <img src={WomanImageForHeroSection} alt="hero image not loaded" className="heroWomanImage "/>
           </div>
           {/* end hero right image--------------------- */}
         </div>
