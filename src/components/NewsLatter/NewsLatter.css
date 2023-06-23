@@ -2,20 +2,28 @@
   margin-top: 134px;
 }
 
+@media (max-width: 767px) {
+  /* Screens below medium */
+  .testimonialContainer {
+    margin-top: 41px;
+  }
+}
+
+
 .growBusinessHeading {
   font-family: "Roboto";
-  font-style: normal;
+  font-style: 30;
   font-weight: 700;
   font-size: 40px;
   line-height: 56px;
   color: #333333;
-  
 }
 
 @media only screen and (min-width: 768px) {
   .growBusinessHeading {
-    margin-left: 350px;
-    margin-right: 412px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 48px;
   }
 }
 
@@ -93,7 +101,7 @@
   .sendNewsLatterButtonBox {
     position: relative;
     bottom: 52px;
-    left: 270px;
+    left: 220px;
   }
 }
 

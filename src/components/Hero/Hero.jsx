@@ -5,10 +5,10 @@ import { WomanImageForHeroSection } from "../../assets";
 const Hero = () => {
   return (
     <div className="coustomBg">
-      <div className="container-md p-4">
+      <div className="container-fluid container-md pt-4">
         <div className="row   justify-content-between">
           {/* start hero left text--------------------- */}
-          <div className="my-auto pb-4 col-auto col-md-6 z-index-1">
+          <div className="my-auto pb-4 col-md-6 z-index-1">
             <p className="bg-light bookingBackgroundCoustom">
               Booking Management System
             </p>
@@ -24,7 +24,7 @@ const Hero = () => {
               tracks <br  className="d-block d-md-none"/> clients, handles staff management <br className="d-block d-md-none" /> & enables effective
               marketing strategies.
             </p>
-            <div className="ms-2 ms-md-0 d-flex justify-content-between justify-content-md-start buttonsRow  gap-3 gap-md-2 ">
+            <div className=" d-flex justify-content-between justify-content-md-start buttonsRow  gap-2">
               <div className="letsTalkButtonBox ">
                 <p className="text-center  letsTalkCoustomText">
                   Let's Talk
@@ -40,7 +40,7 @@ const Hero = () => {
           
           {/* end hero left text--------------------- */}
           {/* start hero right image--------------------- */}
-          <div className=" col-md-5">
+          <div className=" col-md-4">
             <img
               src={WomanImageForHeroSection}
               alt="hero woman model"

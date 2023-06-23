@@ -4,8 +4,8 @@ import { MarkitingAnimatedPcImage } from "..//../assets/index";
 
 const ContactUs = () => {
   return (
-    <div>
-      <div className="coustomContactUsBg">
+    <div className="coustomContactUsBg">
+      <div className="">
         <div className="container">
           <div className="d-md-flex align-items-center">
             {/* start left side-------------------------------- */}

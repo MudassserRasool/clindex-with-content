@@ -1,6 +1,6 @@
 .coustomContactUsBg {
     background-color: #5B7CFD;
-    margin-top: 109px;
+    margin-top: 48px;
     height: auto; /* Set default height to "auto" */
   }
   
@@ -8,23 +8,29 @@
     /* Apply styles for medium-sized screens and above */
     .coustomContactUsBg {
       height: 431px; /* Set the desired height for medium-sized screens and above */
+    margin-top: 109px;
     }
   }
   
 .markitingImageAligenment{
     margin-top: -17px;
 }
-.contactUsHeading{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-    /* or 125% */
-    
-    
-    color: #FFFFFF;
+.contactUsHeading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
 }
+
+@media (max-width: 767px) {
+  /* Screens below medium */
+  .contactUsHeading {
+    font-size: 30px;
+  }
+}
+
 
 .contactUsPara{
     font-family: 'Roboto';
