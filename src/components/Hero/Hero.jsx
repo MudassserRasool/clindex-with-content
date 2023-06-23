@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="coustomBg">
       <div className="container p-4">
-        <div className=" d-md-flex  justify-content-between">
+        <div className="row   justify-content-between">
           {/* start hero left text--------------------- */}
           <div className="my-auto pb-4 col-auto col-md-6 z-index-1">
             <p className="bg-light bookingBackgroundCoustom">

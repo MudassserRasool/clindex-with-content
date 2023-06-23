@@ -77,10 +77,10 @@ padding-top: 18px;
   /* For screens smaller than medium (up to 767.98px) */
   .heroWomanImage {
     /* Add your desired margin for smaller screens here */
-    margin-top: -395px;
-    margin-left: 115px;
-    width: 390px;
-    height: 450px;
+    margin-top: -195px;
+    margin-left: 185px;
+    width: 350px;
+    height: auto;
     transform: scaleX(-1);
     
   }

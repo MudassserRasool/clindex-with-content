@@ -1,9 +1,16 @@
-.coustomContactUsBg{
+.coustomContactUsBg {
     background-color: #5B7CFD;
-margin-top: 109px;
-height: 431px;
-/* height: 220%; */
-}
+    margin-top: 109px;
+    height: auto; /* Set default height to "auto" */
+  }
+  
+  @media (min-width: 768px) {
+    /* Apply styles for medium-sized screens and above */
+    .coustomContactUsBg {
+      height: 431px; /* Set the desired height for medium-sized screens and above */
+    }
+  }
+  
 .markitingImageAligenment{
     margin-top: -17px;
 }
@@ -17,7 +24,6 @@ height: 431px;
     
     
     color: #FFFFFF;
-    
 }
 
 .contactUsPara{
