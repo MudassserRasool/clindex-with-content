@@ -1,6 +1,7 @@
 .coustomContactUsBg{
     background-color: #5B7CFD;
 margin-top: 109px;
+height: 431px;
 /* height: 220%; */
 }
 .markitingImageAligenment{
@@ -36,6 +37,7 @@ margin-top: 109px;
     width: 177px;
     height: 56px;
     background-color: white;
+    border-radius: 4px;
 }
 
 .contactUsButtonText{

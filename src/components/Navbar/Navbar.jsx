@@ -6,8 +6,8 @@ import { PlexarLogo, UserAccountIcon } from "../../assets";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light coustomNavbaSize">
+    <div className="sticky-top z-index-10">
+      <nav className=" navbar navbar-expand-lg navbar-light bg-light coustomNavbaSize z-index-10">
         <div className="container-fluid py-0 colepessedContainer">
           <div className="">
             <img src={PlexarLogo} alt="Plexar Logo" className="plexarLogo ps-2"/>

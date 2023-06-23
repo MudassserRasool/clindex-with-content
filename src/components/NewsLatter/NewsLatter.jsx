@@ -9,7 +9,7 @@ const NewsLatter = () => {
 
       <div className="containe">
            <h1 className="growBusinessHeading   text-center mx-4 mx-md-0">
-        Ditch Long Process & Grow your Business to the Next Level
+        Ditch Long Process & Grow your <br className="d-none d-md-block"/> Business to the Next Level
       </h1>
       <p className="growBusinessPara">
         Building a legacy of success through trusted collaborations with
@@ -17,7 +17,7 @@ const NewsLatter = () => {
       </p>
 
       {/* start newslatter box-------------------------------------- d-flex align-items-center */}
-      <div className="d-grid align-items-center newsLatterBox container    rounded-md">
+      <div className="d-grid align-items-center newsLatterBox container rounded rounded-md">
         <div className="d-md-flex align-items-center justify-content-center pt-4">
             <h1 className="col-md-6 getInTouchText">Get in Touch to Ignite <br />Your Business Success!</h1>
             <input type="text" placeholder="Drop your email here…" className="col-5 newsLatterCoustomInput" />

@@ -14,11 +14,12 @@ const ContactUs = () => {
                 src={MarkitingAnimatedPcImage}
                 alt="file not loaded"
                 className="markitingImageAligenment img-fluid"
+                width={585} height={515}
               />
             </div>
             {/* end left side-------------------------------- */}
             {/* start right side-------------------------------- */}
-            <div className="col-md-5 ms-auto">
+            <div className="col-md-6 ms-auto">
               <h1 className="contactUsHeading">
                 Get Seen on Expert with Free Advertising
               </h1>

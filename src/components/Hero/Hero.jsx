@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="container p-4">
         <div className=" d-md-flex  justify-content-between">
           {/* start hero left text--------------------- */}
-          <div className="my-auto pb-4 col-md-6 z-index-2">
+          <div className="my-auto pb-4 col-auto col-md-6 z-index-1">
             <p className="bg-light bookingBackgroundCoustom">
               Booking Management System
             </p>
@@ -24,25 +24,26 @@ const Hero = () => {
               tracks clients, handles staff management & enables effective
               marketing strategies.
             </p>
-            <div className="d-flex justify-content-center justify-content-sm-start buttonsRow">
+            <div className="ms-4 ms-md-0 d-flex justify-content-between justify-content-md-start buttonsRow  gap-4 gap-md-3 ">
               <div className="letsTalkButtonBox ">
-                <p className="text-center pt-3 letsTalkCoustomText">
+                <p className="text-center  letsTalkCoustomText">
                   Let's Talk
                 </p>
               </div>
-              <div className="learnButtonButtonBox ms-3">
+              <div className="learnButtonButtonBox  ">
                 <p className="text-center pt-3 learnButtonCoustomText">
                   Learn More
                 </p>
               </div>
             </div>
           </div>
+          
           {/* end hero left text--------------------- */}
           {/* start hero right image--------------------- */}
           <div className="col-md-5">
             <img
               src={WomanImageForHeroSection}
-              alt="hero image not loaded"
+              alt="hero woman model"
               className="heroWomanImage "
             />
           </div>
