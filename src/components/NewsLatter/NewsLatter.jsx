@@ -20,7 +20,7 @@ const NewsLatter = () => {
       <div className="d-grid align-items-center newsLatterBox container rounded rounded-md">
         <div className="d-md-flex align-items-center justify-content-center pt-4">
             <h1 className="col-md-6 getInTouchText">Get in Touch to Ignite <br />Your Business Success!</h1>
-            <input type="text" placeholder="Drop your email here…" className="col-5 newsLatterCoustomInput" />
+            <input type="text" placeholder="Drop your email here…" className="col-md-5 newsLatterCoustomInput" />
             <div className="sendNewsLatterButtonBox ">
                 <div className="d-flex align-items-center gap-3">
                 <img src={NewslatterSendButtonIcon} alt="icon not loading" width={11.76} height={11.72} className="sendButtonIcon"/>

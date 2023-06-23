@@ -5,7 +5,7 @@ import { WomanImageForHeroSection } from "../../assets";
 const Hero = () => {
   return (
     <div className="coustomBg">
-      <div className="container p-4">
+      <div className="container-md p-4">
         <div className="row   justify-content-between">
           {/* start hero left text--------------------- */}
           <div className="my-auto pb-4 col-auto col-md-6 z-index-1">
@@ -24,7 +24,7 @@ const Hero = () => {
               tracks clients, handles staff management & enables effective
               marketing strategies.
             </p>
-            <div className="ms-4 ms-md-0 d-flex justify-content-between justify-content-md-start buttonsRow  gap-4 gap-md-3 ">
+            <div className="ms-2 ms-md-0 d-flex justify-content-between justify-content-md-start buttonsRow  gap-3 gap-md-2 ">
               <div className="letsTalkButtonBox ">
                 <p className="text-center  letsTalkCoustomText">
                   Let's Talk

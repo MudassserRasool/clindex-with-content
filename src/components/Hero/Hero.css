@@ -77,12 +77,11 @@ padding-top: 18px;
   /* For screens smaller than medium (up to 767.98px) */
   .heroWomanImage {
     /* Add your desired margin for smaller screens here */
-    margin-top: -195px;
-    margin-left: 185px;
-    width: 350px;
+    margin-top: -250px;
+    margin-left: 65px;
+    width: 95%;
     height: auto;
     transform: scaleX(-1);
-    
   }
   .heroParagraph{
   z-index: 2;

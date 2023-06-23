@@ -51,12 +51,20 @@
 }
 
 .newsLatterCoustomInput {
-  width: 456px;
+  width: 456px; /* Default width for medium-sized screens and above */
   height: 56px;
   background: #ffffff;
   border-radius: 4px;
   border: none;
 }
+
+@media (max-width: 767px) {
+  /* Apply styles for screens below 768 pixels width */
+  .newsLatterCoustomInput {
+    width: 385px; /* Set the desired width for screens below 768 pixels width */
+  }
+}
+
 
 .newsLatterCoustomInput::placeholder {
   font-family: "Roboto";
@@ -85,7 +93,7 @@
   .sendNewsLatterButtonBox {
     position: relative;
     bottom: 52px;
-    left: 342px;
+    left: 270px;
   }
 }
 

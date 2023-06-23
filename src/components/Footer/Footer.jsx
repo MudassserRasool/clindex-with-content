@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footerSection">
       <div className="container">
-        <div className="d-flex align-items-center footerContentSetting">
+        <div className="d-md-flex align-items-center footerContentSetting">
           {/* start first item------------------- */}
           <div className="d-grid w-25">
             <img src={PlexaarFooterLogo} alt="" width="{}" height="{}" />
