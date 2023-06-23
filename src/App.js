@@ -17,7 +17,7 @@ const App = () => {
       <ContactUs/>
       <AiPoweredSystem/>
       <NewsLatter/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }

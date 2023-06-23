@@ -20,8 +20,8 @@ const Hero = () => {
             </div>
             <p className="heroParagraph">
               Empower your business with a feature-rich booking system that
-              automates scheduling, manages clients efficiently, intelligently
-              tracks clients, handles staff management & enables effective
+              automates scheduling, manages clients <br  className="d-block d-md-none"/> efficiently, intelligently
+              tracks <br  className="d-block d-md-none"/> clients, handles staff management <br className="d-block d-md-none" /> & enables effective
               marketing strategies.
             </p>
             <div className="ms-2 ms-md-0 d-flex justify-content-between justify-content-md-start buttonsRow  gap-3 gap-md-2 ">
@@ -40,7 +40,7 @@ const Hero = () => {
           
           {/* end hero left text--------------------- */}
           {/* start hero right image--------------------- */}
-          <div className="col-md-5">
+          <div className=" col-md-5">
             <img
               src={WomanImageForHeroSection}
               alt="hero woman model"

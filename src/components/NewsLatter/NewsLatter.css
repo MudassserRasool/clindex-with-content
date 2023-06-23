@@ -61,7 +61,7 @@
 @media (max-width: 767px) {
   /* Apply styles for screens below 768 pixels width */
   .newsLatterCoustomInput {
-    width: 385px; /* Set the desired width for screens below 768 pixels width */
+    width: 99%; /* Set the desired width for screens below 768 pixels width */
   }
 }
 
@@ -103,7 +103,7 @@
   margin-left: 25px;
 }
 .sendNewsLatterButtonText {
-  margin-top: 12px;
+  margin-top: 15px;
   margin-right: 15px;
 
   font-family: "Roboto";
