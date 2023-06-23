@@ -13,9 +13,9 @@ const App = () => {
     <div className='remveScroller'>
       <Navbar/>
       <Hero/>
-      {/* <Features/>
+      <Features/>
       <ContactUs/>
-      <AiPoweredSystem/> */}
+      <AiPoweredSystem/>
       <NewsLatter/>
       <Footer/>
     </div>
