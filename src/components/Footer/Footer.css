@@ -5,6 +5,14 @@
   background: #5b7cfd;
 }
 
+@media only screen and (max-width: 767.98px) {
+  /* For screens smaller than medium (up to 767.98px) */
+  .footerSection {
+    height: auto;
+  }
+}
+
+
 
 .footerContentSetting {
   padding-top: 120px;
@@ -19,16 +27,27 @@
   color: #ffffff;
   margin-top: 13px;
 }
-.linksSectionOne{
-    margin-left: 113px;
+.linksSectionOne {
+  margin-left: 113px;
 }
 
+@media only screen and (max-width: 767.98px) {
+  /* For screens smaller than medium (up to 767.98px) */
+  .linksSectionOne {
+    margin-left: auto;
+margin-right: auto;
+  }
+}
+
+
 .linksSectionTwo{
-margin-left: 10px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .linksSectionThree{
-    margin-left: 10px;  
+    margin-left: auto;  
+    margin-right: auto;  
 }
 .footerLinkHeading{
     font-family: 'Roboto';

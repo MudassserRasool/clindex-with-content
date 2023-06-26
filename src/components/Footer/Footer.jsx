@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <div className="footerSection">
       <div className="container">
-        <div className="d-md-flex align-items-center footerContentSetting">
+        <div className="d-grid d-md-flex align-items-center footerContentSetting">
           {/* start first item------------------- */}
           <div className="d-grid w-25">
-            <img src={PlexaarFooterLogo} alt="" width="{}" height="{}" />
+            <img src={PlexaarFooterLogo} alt="" width={205} height='{105}' />
             <p className="footerLogoDownText">
               Empower Your Business with Modern ERP System - Your Ultimate
               Business Companion.
@@ -71,7 +71,7 @@ const Footer = () => {
           {/* end third Links item------------------- */}
         </div>
 
-        <hr className=" coustomHrTagStyle" />
+        <hr className="coustomHrTagStyle" />
       </div>
     </div>
   );

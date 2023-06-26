@@ -4,7 +4,7 @@ import { MarkitingAnimatedPcImage } from "..//../assets/index";
 
 const ContactUs = () => {
   return (
-    <div className="coustomContactUsBg">
+    <div className="coustomContactUsBg px-2 px-md-0">
       <div className="">
         <div className="container">
           <div className="d-md-flex align-items-center">

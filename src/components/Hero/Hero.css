@@ -34,7 +34,7 @@
   font-size: 22px;
   line-height: 38px;
   color: #ffffff;
-  z-index: 2;
+  /* z-index: 2; */
   /* position: relative; */
 }
 
@@ -67,6 +67,7 @@ padding-top: 18px;
 .heroWomanImage {
   width: auto;
   height: 597px;
+  
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -78,10 +79,18 @@ padding-top: 18px;
     width: 86%;
     height: auto;
     transform: scaleX(-1);
+
+    /* object-fit: contain !important;
+    width: 222% !important;
+    height: 90%; */
   }
+
+  /* .heoTextAea{
+    
+  } */
   .heroParagraph{
-  z-index: 2;
-  position: relative;
+  /* z-index: 2;
+  position: relative; */
   
   margin-right: 60px;
   }

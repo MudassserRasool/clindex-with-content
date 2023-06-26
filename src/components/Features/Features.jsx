@@ -8,8 +8,8 @@ import {
 
 const Features = () => {
   return (
-    <div className="featuresMargin">
-      <div className="container-fluid container-md ">
+    <div className="featuresMargin px-2 p-md-0">
+      <div className="container">
         {/* start upper row------------------------- */}
         <div className="d-md-flex align-items-center justify-content-between">
           <div className="col-md-7">

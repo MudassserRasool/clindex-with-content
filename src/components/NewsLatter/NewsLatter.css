@@ -5,14 +5,14 @@
 @media (max-width: 767px) {
   /* Screens below medium */
   .testimonialContainer {
-    margin-top: 41px;
+    margin-top: 41px ;
   }
 }
 
 
 .growBusinessHeading {
   font-family: "Roboto";
-  font-style: 30;
+  font-style: 30px;
   font-weight: 700;
   font-size: 40px;
   line-height: 56px;
@@ -21,8 +21,8 @@
 
 @media only screen and (min-width: 768px) {
   .growBusinessHeading {
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
     font-size: 48px;
   }
 }
@@ -81,7 +81,7 @@
   font-size: 16px;
   line-height: 19px;
   color: #999999;
-  padding-left: 25px;
+  /* padding-left: 25px; */
 }
 
 .sendNewsLatterButtonBox {

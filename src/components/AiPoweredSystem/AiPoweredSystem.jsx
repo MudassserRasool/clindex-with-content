@@ -9,7 +9,7 @@ import {
 
 const AiPoweredSystem = () => {
   return (
-    <div className="aiPoweredSectionMarginTop">
+    <div className="aiPoweredSectionMarginTop px-2 px-md-0">
       <div className="aiPoweredSystemContainer container">
         <div className="d-md-flex justify-content-between align-items-center">
           {/* start left text section---------------------------- */}
