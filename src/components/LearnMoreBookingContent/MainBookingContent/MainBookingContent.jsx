@@ -3,7 +3,6 @@ import Hero from '../Hero/Hero'
 import Features from '../Features/Features'
 import ContactUs from '../ContactUs/ContactUs'
 import AiPoweredSystem from '../AiPoweredSystem/AiPoweredSystem'
-import NewsLatter from '../NewsLatter/NewsLatter'
 import { LearnMoreBookingContent } from '../../../static/Content'
 
 const MainBookingContent = () => {
@@ -14,7 +13,6 @@ const MainBookingContent = () => {
         <Features/>
         <ContactUs/>
         <AiPoweredSystem/>
-        <NewsLatter/>
     </div>
   )
 }

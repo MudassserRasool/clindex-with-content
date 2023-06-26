@@ -21,10 +21,10 @@ const ContactUs = () => {
             {/* start right side-------------------------------- */}
             <div className="col-md-6 ms-auto">
               <h1 className="contactUsHeading">
-              Multi-channel Selling
+              Resource Optimization
               </h1>
               <p className="contactUsPara">
-              Never miss a sale by offering flexible selling options at the counter, on the go, or online with Calendex's versatile selling capabilities.
+              Maximize resource utilization by efficiently managing and allocating your assets, minimizing waste and improving profitability.
               </p>
 
               <div className="d-flex justify-content-md-start justify-content-around buttonsRowContactUs">

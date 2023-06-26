@@ -15,11 +15,10 @@ const AiPoweredSystem = () => {
           {/* start left text section---------------------------- */}
           <div className="col-md-5">
             <h1 className="aiPoweredStystemHeading">
-              <span className="aiPoweredHeadingLatter">AI Powered</span> System
+              <span className="aiPoweredHeadingLatter">Multi-channel </span> Selling
             </h1>
             <p className="aiPoweredPara">
-              Our AI sends email & messages to your customers about the
-              available time slots for bookings following the matching criteria.
+            Never miss a sale by offering flexible selling options at the counter, on the go, or online with Calendex's versatile selling capabilities.
             </p>
             {/* start ai powered items-------------------- */}
             <div className="d-grid aiItemsGrid">
@@ -27,10 +26,9 @@ const AiPoweredSystem = () => {
               <div className="d-flex gap-4 ">
                 <img src={AiScheduler} alt="" className="AiItemIcon" />
                 <div className="aiItemNameAndPara">
-                  <h1 className="aiItemNameText">AI Scheduler</h1>
+                  <h1 className="aiItemNameText">Powerful Customer Management</h1>
                   <p className="aiParaText">
-                    AI bot scans your calendar, offers notifications, & books
-                    discounted appointments to fill empty slots.
+                  Enhance customer loyalty using comprehensive customer management software integrated with Calendex POS system.
                   </p>
                 </div>
               </div>
@@ -43,10 +41,9 @@ const AiPoweredSystem = () => {
                   className="AiItemIcon"
                 />
                 <div className="aiItemNameAndPara">
-                  <h1 className="aiItemNameText">Power Automation</h1>
+                  <h1 className="aiItemNameText">Convenient Card Payments</h1>
                   <p className="aiParaText">
-                    Maximize booking efficiency, improve customer engagement, &
-                    optimize revenue generation smoothly.
+                  Streamline checkout process by securely storing customer card information for faster and easier transactions.
                   </p>
                 </div>
               </div>
@@ -55,10 +52,9 @@ const AiPoweredSystem = () => {
               <div className="d-flex gap-4 ">
                 <img src={AiBookingIcon} alt="" className="AiItemIcon" />
                 <div className="aiItemNameAndPara">
-                  <h1 className="aiItemNameText">AI-Driven Bookings</h1>
+                  <h1 className="aiItemNameText">Gift Card Integration</h1>
                   <p className="aiParaText">
-                    Improve scheduling process, increase bookings & minimize
-                    revenue loss due to empty slots.
+                  Boost sales and attract new customers by offering gift cards that can be used both in-person and online.
                   </p>
                 </div>
               </div>

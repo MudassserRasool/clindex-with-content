@@ -1,6 +1,6 @@
 import React from "react";
 import "./NewsLatter.css";
-import { NewslatterSendButtonIcon, WomanImageForHeroSection } from "../../../assets/index";
+import { NewslatterSendButtonIcon, WomanImageForHeroSection } from "../../assets";
 
 const NewsLatter = () => {
   return (
@@ -9,10 +9,11 @@ const NewsLatter = () => {
 
       <div className="container px-2 px-md-0">
            <h1 className="growBusinessHeading   text-md-center mx-4 mx-md-0">
-           Powerful Customer Management
+        Ditch Long Process & Grow your <br className="d-none d-md-block"/> Business to the Next Level
       </h1>
       <p className="growBusinessPara  px-2 px-md-0">
-      Enhance customer loyalty using comprehensive customer management software integrated with Calendex POS system.
+        Building a legacy of success through trusted collaborations with
+        respected clients
       </p>
 
       {/* start newslatter box-------------------------------------- d-flex align-items-center */}

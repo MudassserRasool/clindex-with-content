@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
-import { WomanImageForHeroSection } from "../../../assets";
+import { WomanImageForHeroSection } from "..//..//../assets/index";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -12,26 +13,27 @@ const Hero = () => {
             <p className="bg-light bookingBackgroundCoustom">
               Booking Management System
             </p>
-             <div className="mt-2">
-              <h1 className="clindexHeroHeading">Reliable Digital Assistant</h1>
-             {/* <h3 className="clindexHeroTitel">
-                Trust Calendex to be your reliable digital assistant, handling
-                scheduling, notifications, and data management with ease.
-              </h3>*/}
-            </div> 
+            <div className="mt-2">
+              <h1 className="clindexHeroHeading">Paperless Digital Records</h1>
+              {/* <h3 className="clindexHeroTitel">
+                AI-Powered Booking System for All Businesses
+              </h3> */}
+            </div>
             <p className="heroParagraph">
-            Trust Calendex to be your reliable digital assistant, handling
-                scheduling, notifications, and data management with ease.
+            Efficiently manage and store records digitally, eliminating the need for paper-based documentation. Gain easy access, enhanced organization, and improved data security.
             </p>
             <div className="d-flex justify-content-between justify-content-md-start buttonsRow gap-2">
               <div className="letsTalkButtonBox">
                 <p className="text-center letsTalkCoustomText">Let's Talk</p>
               </div>
-              <div className="learnButtonButtonBox">
+              <Link to={"/booking-content"} className="pb-4 text-decoration-none">
+               <div className="learnButtonButtonBox">
                 <p className="text-center pt-3 learnButtonCoustomText">
                   Learn More
                 </p>
               </div>
+              </Link>
+             
             </div>
           </div>
 

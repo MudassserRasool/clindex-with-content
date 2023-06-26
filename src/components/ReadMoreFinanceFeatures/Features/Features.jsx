@@ -4,7 +4,7 @@ import {
   CalendexWorkingImage,
   FeaturesOrderTextArrowIcon,
   MannagementGroupWorkingImgae,
-} from "..//../assets/index";
+} from "..//..//../assets/index";
 import { Link } from "react-router-dom";
 
 const Features = () => {
@@ -17,12 +17,9 @@ const Features = () => {
             <img src={CalendexWorkingImage} alt="" className="img-fluid" />
           </div>
           <div className="col-md-4 mt-4 mt-md-0">
-            <h1 className="calendexFeatureHeading">Calendex Plus Features</h1>
+            <h1 className="calendexFeatureHeading">Billing & Order Processing</h1>
             <p className="calendexFeatureParagraph">
-              Experience hassle-free scheduling, online booking, and efficient
-              payment processing with our all-in-one solution. Automate SMS &
-              email notifications for perfect communication & enrich customer
-              satisfaction.
+            Smooth billing and order processing with Calendex's, ensuring accurate and prompt transactions for the best customer experiences.
             </p>
 
             {/* stat read more and contact us button---------------------- */}
@@ -64,29 +61,26 @@ const Features = () => {
           <div className="col-md-4 mt-3 mt-md-0">
             <div>
               <h1 className="groupWorkingHeading">
-                Smart Workforce Management
+              Loyalty Program & Gift Cards
               </h1>
               <p className="groupWorkingPara">
-                Dexterously manage your online store, track data, streamline
-                staff operations, & optimize HR processes.
+              Enhance customer loyalty with Calendex's integrated loyalty program and gift card features, fostering repeat business and customer satisfaction.
               </p>
             </div>
 
             <div>
-              <h1 className="groupWorkingHeading">Business Insights Hub</h1>
+              <h1 className="groupWorkingHeading">POS Inventory Management</h1>
               <p className="groupWorkingPara">
-                Gain a competitive edge with marketing, accounting, analytics,
-                reports, and loyalty gift card features.
+              Easily manage your inventory within the Calendex POS system, tracking stock levels, replenishing supplies, and optimizing sales performance.
               </p>
             </div>
 
             <div>
               <h1 className="groupWorkingHeading">
-                Inventory & Booking Widgets
+              Omnichannel Integration and Management
               </h1>
               <p className="groupWorkingPara">
-                Improve processes with digital forms, manage stock & inventory,
-                & enhance bookings with a convenient widget.
+              Connect your online & offline sales channels with Calendex's omnichannel integration, enabling unified experiences for customers across multiple platforms.
               </p>
             </div>
             {/* stat read more and contact us button---------------------- */}

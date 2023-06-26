@@ -5,8 +5,7 @@ import {
   AiPowerAutomationIcon,
   AiScheduler,
   AnimatedStatisticsMobileImage,
-} from "../../assets";
-import { Link } from "react-router-dom";
+} from "..//..//../assets/index";
 
 const AiPoweredSystem = () => {
   return (
@@ -16,11 +15,10 @@ const AiPoweredSystem = () => {
           {/* start left text section---------------------------- */}
           <div className="col-md-5">
             <h1 className="aiPoweredStystemHeading">
-              <span className="aiPoweredHeadingLatter">AI Powered</span> System
+              <span className="aiPoweredHeadingLatter">Customer </span>Messaging
             </h1>
             <p className="aiPoweredPara">
-              Our AI sends email & messages to your customers about the
-              available time slots for bookings following the matching criteria.
+            Communicate directly with customers through the Expert Marketplace messaging system, addressing any inquiries or providing assistance. 
             </p>
             {/* start ai powered items-------------------- */}
             <div className="d-grid aiItemsGrid">
@@ -28,10 +26,9 @@ const AiPoweredSystem = () => {
               <div className="d-flex gap-4 ">
                 <img src={AiScheduler} alt="" className="AiItemIcon" />
                 <div className="aiItemNameAndPara">
-                  <h1 className="aiItemNameText">AI Scheduler</h1>
+                  <h1 className="aiItemNameText">Social Selling</h1>
                   <p className="aiParaText">
-                    AI bot scans your calendar, offers notifications, & books
-                    discounted appointments to fill empty slots.
+                  Sell directly through Instagram and Facebook platforms with a simple tap, expanding your reach and boosting sales effortlessly.
                   </p>
                 </div>
               </div>
@@ -44,10 +41,9 @@ const AiPoweredSystem = () => {
                   className="AiItemIcon"
                 />
                 <div className="aiItemNameAndPara">
-                  <h1 className="aiItemNameText">Power Automation</h1>
+                  <h1 className="aiItemNameText">Business Management</h1>
                   <p className="aiParaText">
-                    Maximize booking efficiency, improve customer engagement, &
-                    optimize revenue generation smoothly.
+                  Manage your entire business operations from one centralized platform, saving time and effort while ensuring smooth operations.
                   </p>
                 </div>
               </div>
@@ -56,24 +52,19 @@ const AiPoweredSystem = () => {
               <div className="d-flex gap-4 ">
                 <img src={AiBookingIcon} alt="" className="AiItemIcon" />
                 <div className="aiItemNameAndPara">
-                  <h1 className="aiItemNameText">AI-Driven Bookings</h1>
+                  <h1 className="aiItemNameText">Custom Campaign Design</h1>
                   <p className="aiParaText">
-                    Improve scheduling process, increase bookings & minimize
-                    revenue loss due to empty slots.
+                  Need more specific campaigns? Get the flexibility to request custom campaign designs from graphic designers, tailored to your unique business needs.
                   </p>
                 </div>
               </div>
               {/* end ai powered item-------------------- */}
               <div className="d-flex justify-content-center  justify-content-md-start">
-
-<Link className="text-decoration-none" to={"/learn-more-digital-records"}>
-   <div className="learnButtonButtonBoxForAiPoweredItemsSection ">
+                <div className="learnButtonButtonBoxForAiPoweredItemsSection ">
                 <p className="text-center pt-3 learnButtonCoustomText">
                   Learn More
                 </p>
               </div>
-</Link>
-             
               </div>
               
             </div>

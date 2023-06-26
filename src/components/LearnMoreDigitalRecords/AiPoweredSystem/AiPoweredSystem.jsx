@@ -5,8 +5,7 @@ import {
   AiPowerAutomationIcon,
   AiScheduler,
   AnimatedStatisticsMobileImage,
-} from "../../assets";
-import { Link } from "react-router-dom";
+} from "..//..//../assets/index";
 
 const AiPoweredSystem = () => {
   return (
@@ -16,11 +15,10 @@ const AiPoweredSystem = () => {
           {/* start left text section---------------------------- */}
           <div className="col-md-5">
             <h1 className="aiPoweredStystemHeading">
-              <span className="aiPoweredHeadingLatter">AI Powered</span> System
+              <span className="aiPoweredHeadingLatter">Automated </span>Workflows
             </h1>
             <p className="aiPoweredPara">
-              Our AI sends email & messages to your customers about the
-              available time slots for bookings following the matching criteria.
+            Set up automated processes for document creation, approval, and notifications, improving efficiency.
             </p>
             {/* start ai powered items-------------------- */}
             <div className="d-grid aiItemsGrid">
@@ -28,10 +26,9 @@ const AiPoweredSystem = () => {
               <div className="d-flex gap-4 ">
                 <img src={AiScheduler} alt="" className="AiItemIcon" />
                 <div className="aiItemNameAndPara">
-                  <h1 className="aiItemNameText">AI Scheduler</h1>
+                  <h1 className="aiItemNameText">Document Collaboration</h1>
                   <p className="aiParaText">
-                    AI bot scans your calendar, offers notifications, & books
-                    discounted appointments to fill empty slots.
+                  Enable multiple users to collaborate on documents simultaneously, enhancing teamwork and productivity.
                   </p>
                 </div>
               </div>
@@ -44,10 +41,9 @@ const AiPoweredSystem = () => {
                   className="AiItemIcon"
                 />
                 <div className="aiItemNameAndPara">
-                  <h1 className="aiItemNameText">Power Automation</h1>
+                  <h1 className="aiItemNameText">Digital Consent Forms</h1>
                   <p className="aiParaText">
-                    Maximize booking efficiency, improve customer engagement, &
-                    optimize revenue generation smoothly.
+                  Securely collect and manage consent electronically, eliminating paper-based processes and ensuring compliance with data privacy regulations.
                   </p>
                 </div>
               </div>
@@ -56,24 +52,19 @@ const AiPoweredSystem = () => {
               <div className="d-flex gap-4 ">
                 <img src={AiBookingIcon} alt="" className="AiItemIcon" />
                 <div className="aiItemNameAndPara">
-                  <h1 className="aiItemNameText">AI-Driven Bookings</h1>
+                  <h1 className="aiItemNameText">Customizable Templates</h1>
                   <p className="aiParaText">
-                    Improve scheduling process, increase bookings & minimize
-                    revenue loss due to empty slots.
+                  Create personalized consent forms with configurable fields and sections for specific business requirements.
                   </p>
                 </div>
               </div>
               {/* end ai powered item-------------------- */}
               <div className="d-flex justify-content-center  justify-content-md-start">
-
-<Link className="text-decoration-none" to={"/learn-more-digital-records"}>
-   <div className="learnButtonButtonBoxForAiPoweredItemsSection ">
+                <div className="learnButtonButtonBoxForAiPoweredItemsSection ">
                 <p className="text-center pt-3 learnButtonCoustomText">
                   Learn More
                 </p>
               </div>
-</Link>
-             
               </div>
               
             </div>
