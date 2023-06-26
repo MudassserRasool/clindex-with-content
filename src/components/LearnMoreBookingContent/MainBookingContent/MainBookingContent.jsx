@@ -10,11 +10,11 @@ const MainBookingContent = () => {
   console.log(LearnMoreBookingContent)
   return (
     <div>
-        {/* <Hero/>
-        <Features/> */}
-        {/* <ContactUs/> */}
-        {/* <AiPoweredSystem/>
-        <NewsLatter/> */}
+        <Hero/>
+        <Features/>
+        <ContactUs/>
+        <AiPoweredSystem/>
+        <NewsLatter/>
     </div>
   )
 }
