@@ -12,7 +12,7 @@ const MainBookingContent = () => {
     <div>
         <Hero/>
         <Features/>
-        <ContactUs/>
+        {/* <ContactUs/> */}
         <AiPoweredSystem/>
         <NewsLatter/>
     </div>
