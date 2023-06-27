@@ -28,6 +28,7 @@ const Features = () => {
             {/* stat read more and contact us button---------------------- */}
             <div className="d-flex align-items-center justify-content-around justify-content-sm-start gap-4 mt-4 mt-md-0">
               <Link
+                onClick={() => window.scrollTo(0, 0)}
                 to={"/read-more-finance-features"}
                 className="text-decoration-none"
               >
@@ -91,14 +92,15 @@ const Features = () => {
             </div>
             {/* stat read more and contact us button---------------------- */}
             <div className="d-flex align-items-center justify-content-around justify-content-sm-start gap-4 mt-4 mt-md-0">
-              <Link
-                to={"/read-more-event-features"}
+              <a
+                // to={"/read-more-event-features"}
+                href="/read-more-event-features"
                 className="text-decoration-none"
               >
                 <div className="btnReadMoreBoxCoustom">
                   <p className="btnReadMoreTextCoustom">Read more</p>
                 </div>
-              </Link>
+              </a>
 
               <div className="d-grid">
                 <div className="d-flex align-items-center gap-2">

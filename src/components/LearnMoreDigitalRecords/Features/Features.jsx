@@ -17,9 +17,9 @@ const Features = () => {
             <img src={CalendexWorkingImage} alt="" className="img-fluid" />
           </div>
           <div className="col-md-4 mt-4 mt-md-0">
-            <h1 className="calendexFeatureHeading">Document Storage</h1>
+            <h1 className="calendexFeatureHeading">Email & Text Marketing</h1>
             <p className="calendexFeatureParagraph">
-            Store all records electronically, ensuring easy retrieval and reducing physical storage requirements.
+            Engage customers effectively with Calendex's integrated email and text marketing feature with automated reminders. Stay connected, send personalized messages, and drive customer loyalty with targeted campaigns.
             </p>
 
             {/* stat read more and contact us button---------------------- */}
@@ -61,26 +61,26 @@ const Features = () => {
           <div className="col-md-4 mt-3 mt-md-0">
             <div>
               <h1 className="groupWorkingHeading">
-              Data Encryption
+              Ad Campaign Formulation
               </h1>
               <p className="groupWorkingPara">
-              Safeguard sensitive information with robust encryption protocols, ensuring data security and confidentiality.
+              Craft compelling ad campaigns effortlessly using Calendex's intuitive interface. Define your target audience, set campaign objectives, and optimize your marketing strategies to maximize reach and conversions.
               </p>
             </div>
 
             <div>
-              <h1 className="groupWorkingHeading">Advanced Search</h1>
+              <h1 className="groupWorkingHeading">Graphic Design Services</h1>
               <p className="groupWorkingPara">
-              Quickly locate specific records using advanced search functionalities, saving time and improving productivity.
+              Calendex offers the option to send a job request and have it professionally designed by a graphic designer. Get tailor-made visuals for your marketing campaigns to make a lasting impression on your audience.
               </p>
             </div>
 
             <div>
               <h1 className="groupWorkingHeading">
-              Version Control
+              Sell Anywhere, Anytime
               </h1>
               <p className="groupWorkingPara">
-              Maintain a history of document revisions, enabling tracking, auditing, and easy reference.
+              Sell products or services across multiple channels, reaching customers wherever they are.
               </p>
             </div>
             {/* stat read more and contact us button---------------------- */}

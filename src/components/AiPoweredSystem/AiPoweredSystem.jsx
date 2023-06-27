@@ -65,17 +65,18 @@ const AiPoweredSystem = () => {
               </div>
               {/* end ai powered item-------------------- */}
               <div className="d-flex justify-content-center  justify-content-md-start">
-
-<Link className="text-decoration-none" to={"/learn-more-digital-records"}>
-   <div className="learnButtonButtonBoxForAiPoweredItemsSection ">
-                <p className="text-center pt-3 learnButtonCoustomText">
-                  Learn More
-                </p>
+                <Link
+                  className="text-decoration-none"
+                  to={"/learn-more-digital-records"}
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <div className="learnButtonButtonBoxForAiPoweredItemsSection ">
+                    <p className="text-center pt-3 learnButtonCoustomText">
+                      Learn More
+                    </p>
+                  </div>
+                </Link>
               </div>
-</Link>
-             
-              </div>
-              
             </div>
             {/* end ai powered items-------------------- */}
           </div>

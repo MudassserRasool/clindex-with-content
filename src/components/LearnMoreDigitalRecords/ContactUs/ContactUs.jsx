@@ -21,10 +21,10 @@ const ContactUs = () => {
             {/* start right side-------------------------------- */}
             <div className="col-md-6 ms-auto">
               <h1 className="contactUsHeading">
-              Permission Controls
+              Easy-to-Use with no Training Required
               </h1>
               <p className="contactUsPara">
-              Assign user roles and permissions to control access and maintain data integrity.
+              Calendex simplifies the selling process with a user-friendly interface, requiring no training for businesses to get started.
               </p>
 
               <div className="d-flex justify-content-md-start justify-content-around buttonsRowContactUs">

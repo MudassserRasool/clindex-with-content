@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContactUs.css";
 import { MarkitingAnimatedPcImage } from "..//../../assets/index";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   return (
@@ -31,11 +32,13 @@ const ContactUs = () => {
                 <div className="contactUsButtonBox">
                   <p className="contactUsButtonText">Contact Us</p>
                 </div>
-                <div className="learnButtonButtonBox ms-2">
-                  <p className="text-center pt-3 learnButtonCoustomText">
-                    Learn More
-                  </p>
-                </div>
+                <Link className="text-decoration-none" to={"/learn-more-expert-marketplace-sub-page"} onClick={() => window.scrollTo(0, 0)}>
+                  <div className="learnButtonButtonBox ms-2">
+                    <p className="text-center pt-3 learnButtonCoustomText">
+                      Learn More
+                    </p>
+                  </div>
+                </Link>
               </div>
               
             </div>

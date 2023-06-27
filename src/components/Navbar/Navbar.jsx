@@ -48,7 +48,7 @@ const Navbar = () => {
                 <a
                   className="navItemTextCoustom nav-link active"
                   aria-current="page"
-                  href="/home"
+                  href="/"
                 >
                   Home
                 </a>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 <a
                   className="navItemTextCoustom nav-link active"
                   aria-current="page"
-                  href="/home"
+                  href="/"
                 >
                   About Us
                 </a>
@@ -66,7 +66,7 @@ const Navbar = () => {
                 <a
                   className="navItemTextCoustom nav-link active"
                   aria-current="page"
-                  href="/home"
+                  href="/"
                 >
                   Portfolio
                 </a>
@@ -75,7 +75,7 @@ const Navbar = () => {
                 <a
                   className="navItemTextCoustom nav-link active"
                   aria-current="page"
-                  href="/home"
+                  href="/"
                 >
                   Contact Us
                 </a>

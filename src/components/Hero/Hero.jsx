@@ -31,7 +31,7 @@ const Hero = () => {
               <div className="letsTalkButtonBox">
                 <p className="text-center letsTalkCoustomText">Let's Talk</p>
               </div>
-              <Link to={"/booking-content"} className="pb-4 text-decoration-none">
+              <Link to={"/booking-content"} className="pb-4 text-decoration-none" onClick={() => window.scrollTo(0, 0)}>
                <div className="learnButtonButtonBox">
                 <p className="text-center pt-3 learnButtonCoustomText">
                   Learn More

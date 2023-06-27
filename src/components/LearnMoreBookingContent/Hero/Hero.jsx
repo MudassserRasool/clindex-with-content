@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { WomanImageForHeroSection } from "../../../assets";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -27,11 +28,13 @@ const Hero = () => {
               <div className="letsTalkButtonBox">
                 <p className="text-center letsTalkCoustomText">Let's Talk</p>
               </div>
-              <div className="learnButtonButtonBox">
+              <Link to={"/booking-content-sub-page"} className="pb-4 text-decoration-none" onClick={() => window.scrollTo(0, 0)}>
+               <div className="learnButtonButtonBox">
                 <p className="text-center pt-3 learnButtonCoustomText">
                   Learn More
                 </p>
               </div>
+              </Link>
             </div>
           </div>
 

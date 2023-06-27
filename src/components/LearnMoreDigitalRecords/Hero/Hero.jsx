@@ -14,13 +14,13 @@ const Hero = () => {
               Booking Management System
             </p>
             <div className="mt-2">
-              <h1 className="clindexHeroHeading">Paperless Digital Records</h1>
+              <h1 className="clindexHeroHeading">Free Marketing Suite</h1>
               {/* <h3 className="clindexHeroTitel">
                 AI-Powered Booking System for All Businesses
               </h3> */}
             </div>
             <p className="heroParagraph">
-            Efficiently manage and store records digitally, eliminating the need for paper-based documentation. Gain easy access, enhanced organization, and improved data security.
+            Calendex offers a comprehensive marketing suite that empowers businesses with advanced capabilities to enhance their marketing efforts. From email and text marketing to formulating targeted ad campaigns, Calendex provides the tools needed to drive customer engagement and boost conversions.
             </p>
             <div className="d-flex justify-content-between justify-content-md-start buttonsRow gap-2">
               <div className="letsTalkButtonBox">

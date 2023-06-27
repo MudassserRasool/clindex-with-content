@@ -6,6 +6,7 @@ import {
   AiScheduler,
   AnimatedStatisticsMobileImage,
 } from "../../../assets";
+import { Link } from "react-router-dom";
 
 const AiPoweredSystem = () => {
   return (
@@ -60,11 +61,13 @@ const AiPoweredSystem = () => {
               </div>
               {/* end ai powered item-------------------- */}
               <div className="d-flex justify-content-center  justify-content-md-start">
-                <div className="learnButtonButtonBoxForAiPoweredItemsSection ">
+              <Link className="text-decoration-none" to={"/learn-more-digital-records-sub-page"} onClick={() => window.scrollTo(0, 0)}>
+   <div className="learnButtonButtonBoxForAiPoweredItemsSection ">
                 <p className="text-center pt-3 learnButtonCoustomText">
                   Learn More
                 </p>
               </div>
+</Link>
               </div>
               
             </div>
